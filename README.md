@@ -10,7 +10,7 @@ To get started, clone the repository and install the dependencies:
 -cd CVault
 -npm install
 
-Dependencies
+## Dependencies
 -express: Web framework for Node.js
 -mongoose: MongoDB ORM for object modeling
 -socket.io: Real-time communication library
@@ -19,7 +19,7 @@ Dependencies
 -connect-mongo: MongoDB session store
 -pug: Template engine for rendering HTML
 
-Development
+## Development
 To run the project locally:
 
 'npm start'
