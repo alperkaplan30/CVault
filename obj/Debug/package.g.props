@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">expressproject1</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">node ./bin/www</PackageJsonScriptsStart>
+    <PackageJsonDependenciesTypesMulter Condition="$(PackageJsonDependenciesTypesMulter) == ''">^1.4.11</PackageJsonDependenciesTypesMulter>
+    <PackageJsonDependenciesCookieParser Condition="$(PackageJsonDependenciesCookieParser) == ''">~1.4.4</PackageJsonDependenciesCookieParser>
+    <PackageJsonDependenciesDebug Condition="$(PackageJsonDependenciesDebug) == ''">~2.6.9</PackageJsonDependenciesDebug>
+    <PackageJsonDependenciesExpress Condition="$(PackageJsonDependenciesExpress) == ''">~4.16.1</PackageJsonDependenciesExpress>
+    <PackageJsonDependenciesExpressSession Condition="$(PackageJsonDependenciesExpressSession) == ''">^1.18.0</PackageJsonDependenciesExpressSession>
+    <PackageJsonDependenciesGrid Condition="$(PackageJsonDependenciesGrid) == ''">^4.10.8</PackageJsonDependenciesGrid>
+    <PackageJsonDependenciesGridfs Condition="$(PackageJsonDependenciesGridfs) == ''">^1.0.0</PackageJsonDependenciesGridfs>
+    <PackageJsonDependenciesHttpErrors Condition="$(PackageJsonDependenciesHttpErrors) == ''">~1.6.3</PackageJsonDependenciesHttpErrors>
+    <PackageJsonDependenciesMongoose Condition="$(PackageJsonDependenciesMongoose) == ''">^8.5.1</PackageJsonDependenciesMongoose>
+    <PackageJsonDependenciesMorgan Condition="$(PackageJsonDependenciesMorgan) == ''">~1.9.1</PackageJsonDependenciesMorgan>
+    <PackageJsonDependenciesMulter Condition="$(PackageJsonDependenciesMulter) == ''">^1.4.5-lts.1</PackageJsonDependenciesMulter>
+    <PackageJsonDependenciesMulter2 Condition="$(PackageJsonDependenciesMulter2) == ''">^1.1.1</PackageJsonDependenciesMulter2>
+    <PackageJsonDependenciesPath Condition="$(PackageJsonDependenciesPath) == ''">^0.12.7</PackageJsonDependenciesPath>
+    <PackageJsonDependenciesPug Condition="$(PackageJsonDependenciesPug) == ''">2.0.0-beta11</PackageJsonDependenciesPug>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^9.7.0</PackageJsonDevdependenciesEslint>
+  </PropertyGroup>
+</Project>

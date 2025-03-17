@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Login Page
+    link(rel='stylesheet' href='/stylesheets/login.css')
+  body
+    .login-container
+      h2 LOGIN
+      form#loginForm
+        label(for='username') Username
+        input#username(type='text' name='username' placeholder='Enter your username' required='')
+        label(for='password') Password
+        input#password(type='password' name='password' placeholder='Enter your password' required='')
+        .button-container
+          button(type='submit') Login
+          button#registerButton(type='button') Register
+          button#forgotpasswordButton(type='button') Forgot Password
+    script(src='/login.js')
+        

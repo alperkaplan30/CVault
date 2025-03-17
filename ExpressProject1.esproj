@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="public\socket.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="models\" />
+  </ItemGroup>
+</Project>

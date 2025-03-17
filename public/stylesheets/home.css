@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Papyrus, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    transition: all 0.5s ease; /* Tüm geçiþler için 0.5s süre */
+    position: relative;
+    z-index: 1; /* Üstteki hover kutusunun altýnda kalmasýný saðlamak için */
+}
+
+    .color-box:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        transform: scale(10); /* Ekraný kaplamak için büyütme */
+        box-shadow: 0 0 50px rgba(0, 0, 0, 0.7); /* Gölge efekti */
+        z-index: 999; /* Diðer kutularýn üzerine çýkmasýný saðlamak için */
+    }
+
+        .color-box:hover::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: -1; /* Hover kutusunun altýnda bir katman oluþturmak için */
+            transition: all 0.5s ease;  
+        }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out; /* Sayfa yüklenirken fade-in efekti eklendi */
+}
