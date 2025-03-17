@@ -5,10 +5,10 @@ It is a website where the user can upload his/her resume by performing operation
 
 To get started, clone the repository and install the dependencies:
 
-```bash
-git clone https://github.com/alperkaplan30/CVault.git
-cd CVault
-npm install
+-bash
+-git clone https://github.com/alperkaplan30/CVault.git
+-cd CVault
+-npm install
 
 Dependencies
 -express: Web framework for Node.js
